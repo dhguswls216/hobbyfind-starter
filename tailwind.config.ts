@@ -13,6 +13,16 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        sans: [
+          'system-ui',
+          '-apple-system',
+          'BlinkMacSystemFont',
+          '"Segoe UI"',
+          '"Noto Sans KR"',
+          'sans-serif',
+        ],
+      },
       colors: {
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
@@ -24,7 +34,7 @@ const config = {
           foreground: 'hsl(var(--primary-foreground))',
         },
         secondary: {
-          DEFAULT: 'hsl(var(--secondary))',
+          DEFAULT: '#176B68',
           foreground: 'hsl(var(--secondary-foreground))',
         },
         destructive: {
@@ -32,11 +42,11 @@ const config = {
           foreground: 'hsl(var(--destructive-foreground))',
         },
         muted: {
-          DEFAULT: 'hsl(var(--muted))',
+          DEFAULT: '#666666',
           foreground: 'hsl(var(--muted-foreground))',
         },
         accent: {
-          DEFAULT: 'hsl(var(--accent))',
+          DEFAULT: '#FFF1F3',
           foreground: 'hsl(var(--accent-foreground))',
         },
         popover: {
@@ -47,6 +57,21 @@ const config = {
           DEFAULT: 'hsl(var(--card))',
           foreground: 'hsl(var(--card-foreground))',
         },
+        brand: {
+          DEFAULT: '#FF385C',
+          strong: '#C92446',
+        },
+        canvas: '#FFFFFF',
+        surface: {
+          DEFAULT: '#FFFFFF',
+          muted: '#F7F7F7',
+        },
+        ink: '#222222',
+        line: {
+          DEFAULT: '#DDDDDD',
+          strong: '#B0B0B0',
+        },
+        focus: '#C92446',
       },
       borderRadius: {
         lg: 'var(--radius)',
