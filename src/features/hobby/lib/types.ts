@@ -6,6 +6,8 @@ export type Hobby = {
   id: string;
   name: string;
   category: CategoryKey;
+  imageSrc: string;
+  imageAlt: string;
 };
 
 export type CategoryInfo = {
